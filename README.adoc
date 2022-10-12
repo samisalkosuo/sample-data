@@ -2,4 +2,4 @@
 
 Sample data repository.
 
-* link:onboarding/[]
+* link:onboarding/[onboarding] - Sample data for simple onboarding process.
