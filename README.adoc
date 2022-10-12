@@ -1,0 +1,5 @@
+# sample-data
+
+Sample data repository.
+
+* link:onboarding/[]
