@@ -7,8 +7,8 @@ image::../images/customer-onboarding-process5.png[Customer onboarding process]
 
 
 * link:data-minimum.csv[] - data with required fields.
-* link:data-with-endtime.py[] - data with required fields and end time.
-* link:data-with-endtime-resource-and-role.py[] - data with required fields, end time, resource and role.
+* link:data-with-endtime.csv[] - data with required fields and end time.
+* link:data-with-endtime-resource-and-role.csv[] - data with required fields, end time, resource and role.
 
 .Sample data with Process ID, Start time and Activity name
 ```
