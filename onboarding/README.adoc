@@ -3,4 +3,4 @@
 Sample data for onboarding process.
 
 .Customer onboarding process. Shamelessly copied from https://www.signavio.com/workflow-examples/know-your-customer/.
-image::customer-onboarding-process5.png[]
+image::../images/customer-onboarding-process5.png[Customer onboarding process]
