@@ -13,7 +13,7 @@ print("Process ID,Start time,Activity")
 
 
 def getTimestampString(timestamp):
-    timestampString = timestamp.strftime("%m/%d/%Y %H:%M:%S")
+    timestampString = timestamp.strftime("%d/%m/%Y %H:%M:%S")
     #timestamp.isoformat()
     return timestampString
 
