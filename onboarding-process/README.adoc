@@ -1,0 +1,70 @@
+= Onboarding sample data
+
+Sample data for onboarding process. Meant to be used with https://www.ibm.com/products/process-mining[IBM Process Mining].
+
+.Customer onboarding process. Shamelessly copied from https://www.signavio.com/workflow-examples/know-your-customer/.
+image::../images/customer-onboarding-process5.png[Customer onboarding process]
+
+
+* link:data-minimum.csv[] - data with required fields.
+* link:data-with-endtime.csv[] - data with required fields and end time.
+* link:data-with-endtime-resource-and-role.csv[] - data with required fields, end time, resource and role.
+
+.Sample data with Process ID, Start time and Activity name
+```
+Process ID,Start time,Activity
+abc450b1490a42a597b851dd0223d269,07/03/2021 09:32:09,Create new account
+abc450b1490a42a597b851dd0223d269,07/03/2021 10:26:10,Validate name and address
+abc450b1490a42a597b851dd0223d269,07/03/2021 10:25:50,Security clearance
+abc450b1490a42a597b851dd0223d269,07/03/2021 10:26:13,Verify account
+abc450b1490a42a597b851dd0223d269,07/03/2021 10:27:06,Review customer
+abc450b1490a42a597b851dd0223d269,07/03/2021 11:55:38,Onboard new customer
+abc450b1490a42a597b851dd0223d269,07/03/2021 11:56:07,Welcome new customer
+df78743d048949bea07460dad0d62f36,03/14/2021 09:28:57,Create new account
+df78743d048949bea07460dad0d62f36,03/14/2021 10:05:05,Validate name and address
+df78743d048949bea07460dad0d62f36,03/14/2021 10:05:02,Security clearance
+df78743d048949bea07460dad0d62f36,03/14/2021 10:05:38,Verify account
+df78743d048949bea07460dad0d62f36,03/14/2021 10:05:49,Review customer
+df78743d048949bea07460dad0d62f36,03/14/2021 11:23:08,Onboard new customer
+df78743d048949bea07460dad0d62f36,03/14/2021 11:23:16,Welcome new customer
+
+```
+
+.Sample data with Process ID, Start time, End time and Activity name
+```
+Process ID,Start time,End time,Activity
+983aeb8c76c04aafb1659faa8491b9a6,02/14/2021 09:21:18,02/14/2021 10:20:17,Create new account
+983aeb8c76c04aafb1659faa8491b9a6,02/14/2021 10:20:26,02/14/2021 10:20:40,Validate name and address
+983aeb8c76c04aafb1659faa8491b9a6,02/14/2021 10:20:26,02/14/2021 10:20:53,Security clearance
+983aeb8c76c04aafb1659faa8491b9a6,02/14/2021 10:20:26,02/14/2021 10:20:34,Verify account
+983aeb8c76c04aafb1659faa8491b9a6,02/14/2021 10:21:03,02/14/2021 10:50:20,Review customer
+983aeb8c76c04aafb1659faa8491b9a6,02/14/2021 10:50:24,02/14/2021 10:50:42,Onboard new customer
+983aeb8c76c04aafb1659faa8491b9a6,02/14/2021 10:50:45,02/14/2021 10:51:35,Welcome new customer
+9cf63b8299a8491b961209c84d27fa62,03/17/2021 09:48:36,03/17/2021 10:39:57,Create new account
+9cf63b8299a8491b961209c84d27fa62,03/17/2021 10:40:01,03/17/2021 10:40:31,Validate name and address
+9cf63b8299a8491b961209c84d27fa62,03/17/2021 10:40:01,03/17/2021 10:40:34,Security clearance
+9cf63b8299a8491b961209c84d27fa62,03/17/2021 10:40:01,03/17/2021 10:40:55,Verify account
+9cf63b8299a8491b961209c84d27fa62,03/17/2021 10:41:04,03/17/2021 10:50:35,Review customer
+9cf63b8299a8491b961209c84d27fa62,03/17/2021 10:50:43,03/17/2021 10:51:38,Onboard new customer
+9cf63b8299a8491b961209c84d27fa62,03/17/2021 10:51:42,03/17/2021 10:52:30,Welcome new customer
+
+```
+
+.Sample data with Process ID, Start time, End time,Activity name, Role and Resource
+```
+Process ID,Start time,End time,Activity,Role,Resource
+941cc1346adc4edcb51857a8a18c4eb8,06/13/2021 09:40:04,06/13/2021 09:46:39,Create new account,Employee,Natalia
+941cc1346adc4edcb51857a8a18c4eb8,06/13/2021 09:46:45,06/13/2021 09:46:51,Validate name and address,System,CP4BA & CP4I
+941cc1346adc4edcb51857a8a18c4eb8,06/13/2021 09:46:45,06/13/2021 09:47:28,Security clearance,System,CP4BA & CP4I
+941cc1346adc4edcb51857a8a18c4eb8,06/13/2021 09:46:45,06/13/2021 09:47:01,Verify account,System,CP4BA & CP4I
+941cc1346adc4edcb51857a8a18c4eb8,06/13/2021 09:47:29,06/13/2021 09:55:01,Review customer,Manager,Zac
+941cc1346adc4edcb51857a8a18c4eb8,06/13/2021 09:55:05,06/13/2021 09:55:22,Onboard new customer,System,Custom Application 1
+941cc1346adc4edcb51857a8a18c4eb8,06/13/2021 09:55:24,06/13/2021 09:56:05,Welcome new customer,System,Custom Application 2
+057576bb4f4f4e15af488b7cdf55074c,02/24/2021 08:27:29,02/24/2021 08:39:20,Create new account,Employee,Jonah
+057576bb4f4f4e15af488b7cdf55074c,02/24/2021 08:39:28,02/24/2021 08:39:55,Validate name and address,System,CP4BA & CP4I
+057576bb4f4f4e15af488b7cdf55074c,02/24/2021 08:39:28,02/24/2021 08:39:51,Security clearance,System,CP4BA & CP4I
+057576bb4f4f4e15af488b7cdf55074c,02/24/2021 08:39:28,02/24/2021 08:40:24,Verify account,System,CP4BA & CP4I
+057576bb4f4f4e15af488b7cdf55074c,02/24/2021 08:40:29,02/24/2021 08:57:34,Review customer,Manager,Zac
+057576bb4f4f4e15af488b7cdf55074c,02/24/2021 08:57:43,02/24/2021 08:58:04,Onboard new customer,System,Custom Application 1
+057576bb4f4f4e15af488b7cdf55074c,02/24/2021 08:58:05,02/24/2021 08:58:33,Welcome new customer,System,Custom Application 2
+```
