@@ -1,0 +1,12 @@
+= Support ticketing process sample data
+
+Sample data for ticketing process. Meant to be used with https://www.ibm.com/products/process-mining[IBM Process Mining].
+
+
+BPMN reference model is fictional, meant for demonstrations.
+
+== Volvo IT - Business Process Intelligence 2013 Challenge
+
+The data is  Volvo IT use case is from https://data.4tu.nl/collections/789491a1-2b09-4ed6-af75-8a5aadada5ac[Business Process Intelligence challenge 2013]. It is a typical support ticketing process.
+
+Originally this data was in https://github.com/IBM/processmining but now removed. See source-directory.
