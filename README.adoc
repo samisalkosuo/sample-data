@@ -3,3 +3,4 @@
 Sample data repository.
 
 * link:onboarding/[onboarding] - Sample data for simple onboarding process.
+* link:support-ticket-process/[support-ticket-process] - Sample data for support ticket process.
