@@ -1,0 +1,12 @@
+= DB2
+
+
+* No persistence
+```
+podman run -it --rm -h db2server --name db2server  --privileged=true -p  50000:50000 --env-file db2.env  docker.io/kazhar/db2-sample-db
+```
+
+* Persistence
+```
+podman run -it --rm -h db2server --name db2server  --privileged=true -p  50000:50000 --env-file db2.env -v "e:\\db2-database:/database:z"  docker.io/kazhar/db2-sample-db
+```
