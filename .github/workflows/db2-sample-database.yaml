@@ -10,7 +10,7 @@ on:
       - 'databases/db2/**'
       - '!**.adoc'
 jobs:
-  helloworld-rest-service-container-build-and-push:
+  db2-sample-db-container-build-and-push:
     uses: ./.github/workflows/reusable-container-build-and-push.yaml
     with:
       imagename: kazhar/db2-sample-db
