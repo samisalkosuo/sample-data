@@ -1,0 +1,12 @@
+= MS SQL Server
+
+
+* No persistence
+```
+podman run -it --rm --name mssql --hostname mssql  -p 1434:1433  docker.io/kazhar/sqlserver-demo-db
+```
+
+* Persistence
+```
+podman run -it --rm --name mssql --hostname mssql  -p 1434:1433 -v "e:\\demo-db-sqlserver\\data:/var/opt/mssql/data:z" -v "e:\\demo-db-sqlserver\\log:/var/opt/mssql/log:z" -v "e:\\demo-db-sqlserver\\secrets:/var/opt/mssql/secrets:z" docker.io/kazhar/sqlserver-demo-db
+```
