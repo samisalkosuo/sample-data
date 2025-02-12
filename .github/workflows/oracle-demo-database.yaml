@@ -1,4 +1,4 @@
-name: DB2 sample database container build and push
+name: Oracle demo database container build and push
 
 on:
   workflow_dispatch:
@@ -7,14 +7,14 @@ on:
       - main
       - dev
     paths:
-      - 'databases/db2/**'
+      - 'databases/oracle/**'
       - '!**.adoc'
 jobs:
   db2-sample-db-container-build-and-push:
     uses: ./.github/workflows/reusable-container-build-and-push.yaml
     with:
-      imagename: kazhar/db2-sample-db
+      imagename: kazhar/oracle-demo-db
       tagname: $GITHUB_REF_NAME
-      dockerfile: databases/db2/Dockerfile
-      directory: databases/db2
+      dockerfile: databases/oracle/Dockerfile
+      directory: databases/oracle
     secrets: inherit
