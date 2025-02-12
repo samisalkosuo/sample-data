@@ -9,10 +9,11 @@ ENV ORACLE_USER=demo
 
 USER root
 COPY *.sh /opt/oracle/scripts/startup
-RUN chmod a+x /opt/oracle/scripts/startup/*sh
-USER oracle
-
+RUN chmod 777 /opt/oracle/scripts/startup/*sh
 COPY *.sql /opt/oracle/scripts/startup
+RUN chmod 777 /opt/oracle/scripts/startup/*sql
+
+USER oracle
 
 #phonenumbers
 COPY phonenumbers.zip /tmp/
