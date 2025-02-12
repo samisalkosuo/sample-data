@@ -1,0 +1,13 @@
+= Oracle
+
+
+* No persistence
+```
+podman run -it --rm --name oracle  -p 1521:1521 -e ORACLE_PWD=passw0rd  oracle
+```
+
+
+* Persistence
+```
+podman run -it --rm --name oracle  -p 1521:1521 -e ORACLE_PWD=passw0rd -v "e:\\demo-db-oracle:/opt/oracle/oradata:z" oracle
+```
