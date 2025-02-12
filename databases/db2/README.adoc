@@ -8,5 +8,5 @@ podman run -it --rm -h db2server --name db2server  --privileged=true -p  50000:5
 
 * Persistence
 ```
-podman run -it --rm -h db2server --name db2server  --privileged=true -p  50000:50000 --env-file db2.env -v "e:\\db2-database:/database:z"  docker.io/kazhar/db2-demo-db
+podman run -it --rm -h db2server --name db2server  --privileged=true -p  50000:50000 -e DB2INST1_PASSWORD=passw0rd -v "e:\\demo-db-db2:/database:z"  docker.io/kazhar/db2-demo-db
 ```
