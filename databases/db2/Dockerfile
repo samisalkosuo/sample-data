@@ -17,8 +17,8 @@ ENV HADR_ENABLED=false
 #copy files to tmp
 COPY create_schema_and_tables.sql /tmp/
 RUN chmod a+x /tmp/create_schema_and_tables.sql
-COPY citizens.zip /tmp/
-RUN cd /tmp && unzip citizens.zip
+COPY db2-citizens.csv.gz /tmp/
+RUN cd /tmp && gunzip db2-citizens.csv.gz
 RUN chmod a+x /tmp/*csv
 
 #copy script files

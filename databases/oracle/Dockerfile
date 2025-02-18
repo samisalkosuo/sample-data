@@ -13,13 +13,13 @@ RUN chmod 777 /opt/oracle/scripts/startup/*sh
 COPY *.sql /opt/oracle/scripts/startup
 RUN chmod 777 /opt/oracle/scripts/startup/*sql
 
+#phonenumbers
+COPY oracle-phonenumbers.csv.gz /tmp/
+RUN cd /tmp && gunzip oracle-phonenumbers.csv.gz
+RUN chmod 777 /tmp/*csv
+
 USER oracle
 
-#phonenumbers
-COPY phonenumbers.zip /tmp/
-RUN cd /tmp && unzip phonenumbers.zip
-RUN chmod a+x /tmp/*csv
 COPY load-phonenumbers.ctl /opt/oracle/scripts/startup
-
 
 

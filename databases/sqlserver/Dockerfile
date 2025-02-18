@@ -12,8 +12,8 @@ USER root
 COPY *.sh .
 COPY *.sql .
 COPY *.gz .
-RUN gunzip addresses.csv.gz && \
-    gunzip professions.csv.gz && \
+RUN gunzip sqlserver-addresses.csv.gz && \
+    gunzip sqlserver-professions.csv.gz && \
     chmod 777 /sqlserver/*.csv && \
     chmod 777 /sqlserver/*.sh && \
     chmod 777 /sqlserver/*.sql
