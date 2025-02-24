@@ -1,5 +1,6 @@
 = MS SQL Server
 
+Database for citizen addresses and professions.
 
 * No persistence
 ```
