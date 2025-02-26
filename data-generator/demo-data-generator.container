@@ -1,0 +1,38 @@
+#systemd container file to be used with podman
+#see https://docs.podman.io/en/latest/markdown/podman-systemd.unit.5.html
+#and https://www.redhat.com/sysadmin/quadlet-podman
+#copy this file to /etc/containers/systemd/
+#and execute systemctl daemon-reload
+#in order container as a systemd service
+[Unit]
+Description=Demo data generator
+After=local-fs.target
+
+#add these to start this service after other.service, even if other.service fails to start
+#After=other.service
+#Wants=other.service
+
+#use Requires to make other.service require it
+#Requires=other.service
+
+[Container]
+Image=docker.io/kazhar/demo-data-generator:latest
+ContainerName=demo-data-generator
+#PublishPort=8080
+
+#Volume=/demo-data-generator
+#PodmanArgs=--privileged
+
+#add environment variables
+Environment=LOG=true
+Environment=CDR_DB_JDBC_URL=jdbc:postgresql://postgresql:5432/demo
+Environment=CDR_DB_USER_NAME=demo
+Environment=CDR_DB_USER_PASSWORD=passw0rd
+
+[Service]
+# Restart service when sleep finishes
+Restart=always
+
+[Install]
+# Start by default on boot
+WantedBy=multi-user.target default.target

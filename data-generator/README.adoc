@@ -1,0 +1,4 @@
+= Data generator
+
+Generates test data to demo databases. Like CDR records etc.
+
