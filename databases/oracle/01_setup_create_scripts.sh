@@ -8,7 +8,7 @@ grant dba to ${ORACLE_USER};
 EOF
 
 cat << EOF > /opt/oracle/scripts/startup/03_create-table.sql
-create table ${ORACLE_USER}.phonenumbers (id char(17) unique not null, phonenumber char(12));
+create table ${ORACLE_USER}.phonenumbers (id integer primary key not null, phonenumber char(11));
 EOF
 
 cat << EOF > /opt/oracle/scripts/startup/04-insert-data.sh
