@@ -15,7 +15,7 @@ if len(sys.argv) == 2:
 
 #random sqls
 if TOTAL_INSERT_SQLS == -1:
-    TOTAL_INSERT_SQLS = random.choice(list(range(23)))
+    TOTAL_INSERT_SQLS = random.choice(list(range(1,23)))
 
 #read all phone numbers 
 with open(fileName, 'r', encoding='utf-8', errors='replace') as f:
