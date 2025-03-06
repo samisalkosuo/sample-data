@@ -12,7 +12,7 @@ function createInsertCDRSQL
 {        
     cd calldetailrecords
     #get random number of CDR insert SQLs...
-    python3 create-insert-cdr-sql.py 100 > insert_cdr.sql
+    python3 create-insert-cdr-sql.py -1 > insert_cdr.sql
     local SQL_LINES=$(cat insert_cdr.sql |wc | awk '{print $1}')
     #cat insert_cdr.sql | awk '{print}' ORS=' '
     #echo $SQL_LINES
