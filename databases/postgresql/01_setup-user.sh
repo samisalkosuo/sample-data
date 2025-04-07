@@ -2,7 +2,10 @@
 set -e
 export DEMO_USER_PASSWORD=$POSTGRES_PASSWORD
 psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-EOSQL
-	-- Create user and table 
+	--- set up CDC/logical replication
+    ALTER SYSTEM SET wal_level = 'logical';
+    
+    -- Create user and table 
     CREATE USER $DEMO_USER_NAME;
     ALTER USER $DEMO_USER_NAME WITH PASSWORD '$DEMO_USER_PASSWORD';
 	CREATE DATABASE $DEMO_DB_NAME;
