@@ -1,0 +1,11 @@
+purchasing-process/
+images/Purch*
+loa-forms/generated/
+loa-forms-generated/
+loa-forms/
+jupyter-work/
+apps/
+local/
+tmp/
+*csv
+*__pycache__*
