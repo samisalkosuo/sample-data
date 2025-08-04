@@ -1,0 +1,14 @@
+ Visit Date: December 20, 2023
+Clinic or Hospital Location: Finström Health Center
+
+Chief Complaint: Acute abdominal pain and shortness of breath
+
+History of Present Illness (HPI): A 54-year-old female presented to the emergency department with a chief complaint of severe, constant abdominal pain that began abruptly 6 hours ago. The patient also reported dyspnea, with an increasing shortness of breath over the past hour. She described the pain as sharp and localized in the lower right quadrant of her abdomen, accompanied by nausea and vomiting. The patient's vital signs upon arrival were: blood pressure 140/90 mmHg, pulse rate 120 beats per minute, respiratory rate 24 breaths per minute, oxygen saturation 93% on room air, and temperature 37.5°C (99.5°F).
+
+Physical Examination Findings: On physical examination, the patient appeared distressed and in significant discomfort. Abdominal examination revealed localized tenderness and guarding in the lower right quadrant, with rebound tenderness noted. Bowel sounds were hypoactive. The patient's lungs exhibited bilateral basilar crackles, suggesting possible pleural effusion.
+
+Assessment / Diagnosis: Given the acute onset of severe abdominal pain, localized to the right lower quadrant, and associated findings of rebound tenderness, guarding, and hypoactive bowel sounds, a diagnosis of appendicitis with potential complications such as perforation and pleural effusion is suspected. The shortness of breath, bilateral basilar crackles, and tachypnea may indicate pulmonary involvement due to the possible spread of infection from the appendix.
+
+Plan / Treatment: The patient was immediately admitted for intravenous fluid resuscitation, pain management, and broad-spectrum antibiotics to cover potential gram-negative bacteria. A computed tomography (CT) scan with contrast was ordered to confirm the diagnosis and assess for any complications such as perforation or abscess formation. If the CT confirms appendicitis, surgical intervention will be necessary. The patient's respiratory status will also require close monitoring, and further imaging may be needed to evaluate the pleural effusion.
+
+Follow-up Instructions: The patient will be closely monitored in the hospital for any signs of worsening condition or complications. A surgical consultation has been arranged, and the patient will undergo an appendectomy as soon as possible. The patient should expect to remain hospitalized for several days post-surgery for recovery and monitoring. Follow-up appointments with the surgeon and primary care provider will be scheduled upon discharge.

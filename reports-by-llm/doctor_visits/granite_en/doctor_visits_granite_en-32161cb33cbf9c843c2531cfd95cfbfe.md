@@ -1,0 +1,13 @@
+07.02.2024 - Utsjoki Clinic Visit Report
+
+Chief Complaint: An 87-year-old female patient presents with progressive shortness of breath and mild chest pain.
+
+History of Present Illness (HPI): The patient reports a gradual onset of exertional dyspnea over the past two weeks, initially attributed to seasonal allergies. However, symptoms have worsened in the last 48 hours, now occurring at rest and associated with mild substernal chest pressure. She denies any cough, fever, or hemoptysis. Her past medical history is significant for hypertension, atrial fibrillation on anticoagulation therapy, and chronic obstructive pulmonary disease (COPD) managed with inhaled bronchodilators. She resides independently but requires assistance with activities of daily living.
+
+Physical Examination Findings: On presentation, the patient appears mildly distressed but is oriented to person, place, and time. Vital signs are as follows: blood pressure 140/80 mmHg, heart rate 95 bpm, respiratory rate 22 breaths per minute, oxygen saturation 90% on room air, and temperature 36.8°C. Cardiovascular examination reveals regular rhythm with no murmurs, rubs, or gallops. Lungs are bilaterally diminished with decreased breath sounds and occasional wheezing heard throughout. Abdomen is soft, non-tender, and non-distended without organomegaly. Extremities show no edema; however, mild peripheral pulses are noted to be weak.
+
+Assessment / Diagnosis: Given the patient's age, history of COPD exacerbation, and current symptoms of worsening dyspnea at rest, along with mild chest pain, she is evaluated for possible acute heart failure or pneumonia. Further investigations are warranted to rule out pulmonary embolism given her age and risk factors (atrial fibrillation).
+
+Plan / Treatment: The patient will undergo a chest X-ray and D-dimer testing for evaluation of possible pneumonia or pulmonary embolism. She will receive intravenous diuretics, furosemide 20mg, and oxygen therapy via nasal cannula to alleviate symptoms of acute heart failure. Inhaled bronchodilators (salbutamol and ipratropium) will be administered as needed for bronchospasm management. She will be closely monitored for response to treatment.
+
+Follow-up Instructions: The patient should return for a follow-up appointment in one week or sooner if symptoms worsen. Further management will depend on the results of diagnostic tests and clinical improvement. If she does not improve, referral to a cardiologist or pulmonologist may be necessary.
