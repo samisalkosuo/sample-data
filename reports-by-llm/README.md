@@ -18,3 +18,5 @@ Reports are generated using models:
 ## Report Metadata
 
 Metadata was extracted using [extract-report-metadata.py](./extract-report-metadata.py) and `qwen2.5:3b` model.
+
+Extraction was mostly sufficient but some manual adjustments have been made.
