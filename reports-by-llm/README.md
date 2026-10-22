@@ -8,7 +8,7 @@ LLM generated reports of various topics:
 - Social services visit
 - Traffic incidents
 
-Reports are generated using models:
+Reports were generated using models:
 
 - deepseek-r1:7b
 - granite3.3:8b
